@@ -1,0 +1,159 @@
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.displayNone{
+  display: none;
+}
+
+.transparent{
+  opacity: 0;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+body{
+  background-color: #473627;
+	transition: 1s;
+}
+
+
+
+
+.bodyLeft{
+	margin-left: 100%;
+}
+
+.bodyRight{
+	margin-left: -100%;
+}
+
+.bottomNav{
+  position: fixed;
+  top:80vh;
+  height: 200px;
+  width: 100%;
+  background-color: gold;
+	display: flex;
+	z-index: 10;
+}
+
+.back{
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	position: fixed;
+	margin-left: 100%;
+}
+
+
+.button{
+	align-self: center;
+	margin-left: 1%;
+}
+
+.button button{
+	height: 175px;
+	width: 175px;
+}
+
+.squaresWrap{
+	display: flex;
+	height: 72%;
+	margin-top: -148%;
+	position: fixed;
+	justify-content: space-around;
+	align-content: stretch;
+	z-index: -2;
+	transition: 0.5s linear;
+}
+
+.squaresWrapDown{
+	margin-top: 58%;
+}
+
+.squaresWrapLeft{
+	margin-left: -100%;
+}
+
+.squares{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+	margin-top: -82%;
+	color: white;
+
+}
+
+.square{
+
+  width: 200px;
+
+	background-color: black;
+	font-size: 50px;
+	flex-grow: 1;
+	display: flex;
+	transition: 0.7s;
+	border:1px solid white;
+
+}
+.square:hover{
+	cursor: pointer;
+}
+
+.rectangle{
+
+
+	margin-left: 177px;
+  background-color: blue;
+	transition: 0.7s;
+
+
+}
+
+.seeMoreBTN{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+.squareOpen{
+	flex-grow: 8;
+	align-items: stretch;
+
+
+}
+
+
+
+.content{
+	height: 100%;
+	width: 79vw;
+	margin-top: -7%;
+	background-color: green;
+	opacity: 0.7;
+	transition: 0.5s;
+	text-align: center;
+}
+
+
+.contentLeft{
+	position: fixed;
+	margin-top: auto;
+	margin-left: -110%;
+	overflow: auto;
+	top: 0;
+	transition: 0.5s;
+}
