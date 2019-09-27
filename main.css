@@ -42,7 +42,7 @@ body{
 
 .bottomNav{
   position: fixed;
-  top:80vh;
+  top:85%;
   height: 200px;
   width: 100%;
   background-color: gold;
